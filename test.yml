@@ -33,6 +33,24 @@ jobs:
         sudo apt install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc      
 
         git clone https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+        
+        git clone https://github.com/CoolestEnoch/xiaomi-10-ultra-kernel
+
+        
+
+        mv xiaomi-10-ultra-kernel sourceA
+
+  
+
+        cd sourceA
+
+        
+
+        sudo cp ./libdebuginfod.so.1 /usr/lib
+
+        
+
+        sudo chmod 777 /usr/lib/libdebuginfod.so.1
 
         
 
