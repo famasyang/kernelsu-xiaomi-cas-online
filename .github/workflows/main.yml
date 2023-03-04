@@ -99,9 +99,9 @@ jobs:
 
         
 
-        mv kernel-su-xiaomi-cas/gcc/ ./gcc
+        mv xiaomi-10-ultra-kernel/gcc/ ./gcc
 
-        rm -rf kernel-su-xiaomi-cas
+        rm -rf xiaomi-10-ultra-kernel
 
         
 
