@@ -51,8 +51,8 @@ jobs:
         
 
         sudo chmod 777 /usr/lib/libdebuginfod.so.1
-
-        
+       
+        cd ..       
 
         mv android_kernel_xiaomi_cas source
 
