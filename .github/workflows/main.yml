@@ -95,11 +95,11 @@ jobs:
 
         
 
-        git clone https://github.com/CoolestEnoch/kernelsu-xiaomi-cas-online
+        git clone https://github.com/CoolestEnoch/kernel-su-xiaomi-cas
 
         
 
-        mv xiaomi-10-ultra-kernel/gcc/ ./gcc
+        mv kernel-su-xiaomi-cas/gcc/ ./gcc
 
         rm -rf xiaomi-10-ultra-kernel
 
