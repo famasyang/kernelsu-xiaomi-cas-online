@@ -32,7 +32,7 @@ jobs:
 
         sudo apt install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc      
 
-        git clone https://github.com/asuka-mio/android_kernel_xiaomi_cas
+        git clone https://github.com/famasyang/cas_kernel_for_kernelSU
 
         
 
@@ -58,7 +58,7 @@ jobs:
 
         cd ..       
 
-        mv android_kernel_xiaomi_cas source
+        mv cas_kernel_for_kernelSU source
 
   
 
