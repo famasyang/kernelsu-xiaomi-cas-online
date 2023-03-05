@@ -38,21 +38,21 @@ jobs:
 
         
 
-       # mv xiaomi-10-ultra-kernel sourceA
+       mv xiaomi-10-ultra-kernel sourceA
 
   
 
-       # cd sourceA
+       cd sourceA
 
         
 
-       # sudo cp ./libdebuginfod.so.1 /usr/lib
+       sudo cp ./libdebuginfod.so.1 /usr/lib
 
         
 
-      # sudo chmod 777 /usr/lib/libdebuginfod.so.1
+      sudo chmod 777 /usr/lib/libdebuginfod.so.1
        
-      #  cd ..       
+       cd ..       
 
         mv android_kernel_xiaomi_cas source
 
