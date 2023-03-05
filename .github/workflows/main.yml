@@ -125,18 +125,15 @@ jobs:
         cd source
 
         make cas_defconfig
-        
-        pwd
-        
-        ls
 
         make -j2
 
 
-    - uses: actions/upload-artifact@v3
+    - name: Upload Build
+      uses: actions/upload-artifact@v3
       with:
-        name: my-artifact
-        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/source/arch/arm64/boot
+        name: Image
+        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/source/arch/arm64/boot/Image
         
 
     
