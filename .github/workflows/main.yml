@@ -125,12 +125,14 @@ jobs:
         cd source
 
         make cas_defconfig
-
-        make -j2
-
+        
         pwd
         
         ls
+
+        make -j2
+
+
 
         
 
