@@ -133,15 +133,10 @@ jobs:
         make -j2
 
 
-
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/source/arch/arm64/boot
         
 
-    - name: Upload Build
-
-      uses: actions/upload-artifact@v3
-
-      with:
-
-        name: Image
-
-        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/source/arch/arm64/boot/Image
+    
