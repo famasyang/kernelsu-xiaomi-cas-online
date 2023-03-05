@@ -138,4 +138,4 @@ jobs:
 
         name: Image
 
-        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/source/arch/arm64/boot/Image
+        path: /home/runner/work/kernelsu-xiaomi-cas-online/source/arch/arm64/boot/Image
