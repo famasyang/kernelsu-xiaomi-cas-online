@@ -32,8 +32,9 @@ jobs:
 
         sudo apt install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc      
 
-        git clone https://github.com/famasyang/cas_kernel_for_kernelSU
-
+        git clone https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+        
+        git revert df8fe3eb1243c6c5ff5549cd7dcc7e14f63cbba1
         
 
         git clone https://github.com/CoolestEnoch/xiaomi-10-ultra-kernel
@@ -58,7 +59,7 @@ jobs:
 
         cd ..       
 
-        mv cas_kernel_for_kernelSU source
+        mv android_kernel_xiaomi_cas source
 
   
 
@@ -102,13 +103,13 @@ jobs:
 
         
 
-        git clone https://github.com/CoolestEnoch/kernel-su-xiaomi-cas
+        git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 
         
 
-        mv kernel-su-xiaomi-cas/gcc/ ./gcc
+        mv aarch64-linux-android-4.9 gcc
 
-        rm -rf xiaomi-10-ultra-kernel
+        
 
         
 
