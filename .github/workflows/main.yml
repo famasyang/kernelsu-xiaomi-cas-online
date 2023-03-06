@@ -34,6 +34,8 @@ jobs:
 
         git clone https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
         
+        cd android_kernel_xiaomi_cas
+        
         git revert df8fe3eb1243c6c5ff5549cd7dcc7e14f63cbba1
         
 
